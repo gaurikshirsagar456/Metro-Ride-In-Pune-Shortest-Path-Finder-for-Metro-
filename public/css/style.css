@@ -1,0 +1,179 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+label,
+select,
+input {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.title {
+  float: left;
+  color: #fff;
+  font-size: 30px;
+}
+
+.nav-links {
+  float: right;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.nav-links a:hover {
+  color: #f0f0f0;
+}
+
+#route {
+  font-size: 16px; /* Change the font size to your desired value */
+  font-family: Arial, sans-serif; /* Change the font family to your desired font */
+}
+
+/* Apply some basic styles to the container */
+.container {
+  position: relative;
+  z-index: 1;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffdee9;
+  background-image: linear-gradient(209deg, #ffdee9 0%, #b5fffc 100%);
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.form {
+  width: 500px;
+  margin: auto;
+   /* Adjust the width of the form */
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/media/aditya/4424836B4EED3669/ADS/ADS_Project/HEAP_SORTING/public/images/maps back.jpg');
+  background-size: cover;
+  z-index: -1; /* Ensure the background is behind other elements */
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  align-content: center;
+}
+
+/* Style the form */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+select,
+input[type='button'] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type='button'] {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+input[type='button']:hover {
+  background-color: #0056b3;
+}
+
+/* Style the results section */
+.results {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Adjust styles for screens smaller than 768px */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  label {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+
+  select,
+  input[type='button'] {
+    font-size: 14px;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+/* Adjust styles for screens smaller than 480px */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  label {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+
+  select,
+  input[type='button'] {
+    font-size: 12px;
+    padding: 6px;
+    margin-bottom: 6px;
+  }
+}

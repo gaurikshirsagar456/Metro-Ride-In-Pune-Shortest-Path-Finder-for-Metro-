@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Route Mate in Pune</title>
+
+  <!-- Link the CSS for Icons from Iconscout -->
+  <link rel="stylesheet" type="text/css" href="https://link.to/iconscout-styles.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+  <body>
+    <div class="navbar">
+      <div class="title">Travel with Metro in Pune</div>
+      <div class="nav-links">
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="background-image"></div>
+
+  <div class="container">
+    <h1>Travel with Metro in Pune</h1>
+    <div class="form">
+      <form action="/Findroute" method="post" id="routeForm">
+        <label for="source">Source Station:</label>
+        <br>
+        <select id="source" name="source">
+          <option value="">Select Source Station</option>
+          <option value="Anand_Nagar_Metro_Station">Anand_Nagar</option>
+          <option value="Bopodi_Metro_Station">Bopodi</option>
+          <option value="Bund_Garden_Metro_Station">Bund_Garden</option>
+          <option value="Chhatrapati_Sambhaji_Udyan_Metro_Station">
+            Chhatrapati_Sambhaji_Udyan
+          </option>
+          <option value="Civil_Court_Metro_Station">Civil_Court</option>
+          <option value="Dapodi_Metro_Station">Dapodi</option>
+          <option value="Deccan_Gymkhana_Metro_Station">Deccan_Gymkhana</option>
+          <option value="Garware_College_Metro_Station">Garware_College</option>
+          <option value="Ideal_Colony_Metro_Station">Ideal_Colony</option>
+          <option value="Kalyani_Nagar_Metro_Station">Kalyani_Nagar</option>
+          <option value="Kasarwadi_Metro_Station">Kasarwadi</option>
+          <option value="Khadki_Metro_Station">Khadki</option>
+          <option value="Mangalwar_Peth_Metro_Station">Mangalwar_Peth</option>
+          <option value="Nal_Stop_Metro_Station">Nal_Stop_Metro_Station</option>
+          <option value="Nashik_Phata_Metro_Station">Nashik_Phata_Metro_Station</option>
+          <option value="PCMC_Bhavan_Metro_Station">PCMC_Bhavan_Metro_Station</option>
+          <option value="Phugewadi_Metro_Station">Phugewadi_Metro_Station</option>
+          <option value="PMC_Bhavan_Metro_Station">PMC_Bhavan_Metro_Station</option>
+          <option value="Pune_Railway_Station_Metro_Station">Pune_Railway_Station</option>
+          <option value="Ramwadi_Metro_Station">Ramwadi</option>
+          <option value="Range_Hills_Metro_Station">Range_Hills_Metro_Station</option>
+          <option value="Katraj">Katraj</option>
+          <option value="Bibwewadi">Bibwewadi</option>
+          <option value="Shanipar">Shanipar</option>
+          <option value="Market_yard">Market_yard</option>
+          <option value="swargate">Swargate</option>
+          <option value="Gokhalenagar">Gokhalenagar</option>
+          <option value="camp">camp</option>
+          <option value="Ruby_Hall_Clinic_Metro_Station">Ruby_Hall_Clinic</option>
+          <option value="Sant_Tukaram_Nagar_Metro_Station"> Sant_Tukaram_Nagar_Metro_Station</option>
+          <option value="Shivaji_Nagar_Metro_Station">Shivaji_Nagar_Metro_Station</option>
+          <option value="Vanaz_Metro_Station">Vanaz_Metro_Station</option>
+          <option value="Yerwada_Metro_Station">Yerwada_Metro_Station</option>
+          <option value="Koregaon_park">Koregaon_park</option>
+          <option value="Kothrud">Kothrud</option>
+          <option value="Karvenagar">Karvenagar</option>
+          <option value="FC_Road">FC_Road</option>
+          <option value="SPPU">SPPU</option>
+          <option value="">Aundh</option>
+          <option value="Akurdi">Akurdi</option>
+          <option value="Wakadewadi">Wakadewadi</option>
+          
+        </select>
+        <br>
+        <label for="destination">Destination Station:</label>
+        <select id="destination" name="destination"> 
+          <option value="">Select Destination Station</option>
+          <option value="Anand_Nagar_Metro_Station">Anand_Nagar</option>
+          <option value="Bopodi_Metro_Station">Bopodi</option>
+          <option value="Bund_Garden_Metro_Station">Bund_Garden</option>
+          <option value="Chhatrapati_Sambhaji_Udyan_Metro_Station">
+            Chhatrapati_Sambhaji_Udyan
+          </option>
+          <option value="Civil_Court_Metro_Station">Civil_Court</option>
+          <option value="Dapodi_Metro_Station">Dapodi</option>
+          <option value="Deccan_Gymkhana_Metro_Station">Deccan_Gymkhana</option>
+          <option value="Garware_College_Metro_Station">Garware_College</option>
+          <option value="Ideal_Colony_Metro_Station">Ideal_Colony</option>
+          <option value="Kalyani_Nagar_Metro_Station">Kalyani_Nagar</option>
+          <option value="Kasarwadi_Metro_Station">Kasarwadi</option>
+          <option value="Khadki_Metro_Station">Khadki</option>
+          <option value="Mangalwar_Peth_Metro_Station">Mangalwar_Peth</option>
+          <option value="Nal_Stop_Metro_Station">Nal_Stop_Metro_Station</option>
+          <option value="Nashik_Phata_Metro_Station">Nashik_Phata_Metro_Station</option>
+          <option value="PCMC_Bhavan_Metro_Station">PCMC_Bhavan_Metro_Station</option>
+          <option value="Phugewadi_Metro_Station">Phugewadi_Metro_Station</option>
+          <option value="PMC_Bhavan_Metro_Station">PMC_Bhavan_Metro_Station</option>
+          <option value="Pune_Railway_Station_Metro_Station">Pune_Railway_Station</option>
+          <option value="Ramwadi_Metro_Station">Ramwadi</option>
+          <option value="Range_Hills_Metro_Station">Range_Hills_Metro_Station</option>
+          <option value="Katraj">Katraj</option>
+          <option value="Bibwewadi">Bibwewadi</option>
+          <option value="Shanipar">Shanipar</option>
+          <option value="Market_yard">Market_yard</option>
+          <option value="swargate">Swargate</option>
+          <option value="Gokhalenagar">Gokhalenagar</option>
+          <option value="camp">camp</option>
+          <option value="Ruby_Hall_Clinic_Metro_Station">Ruby_Hall_Clinic</option>
+          <option value="Sant_Tukaram_Nagar_Metro_Station"> Sant_Tukaram_Nagar_Metro_Station</option>
+          <option value="Shivaji_Nagar_Metro_Station">Shivaji_Nagar_Metro_Station</option>
+          <option value="Vanaz_Metro_Station">Vanaz_Metro_Station</option>
+          <option value="Yerwada_Metro_Station">Yerwada_Metro_Station</option>
+          <option value="Koregaon_park">Koregaon_park</option>
+          <option value="Kothrud">Kothrud</option>
+          <option value="Karvenagar">Karvenagar</option>
+          <option value="FC_Road">FC_Road</option>
+          <option value="SPPU">SPPU</option>
+          <option value="">Aundh</option>
+          <option value="Akurdi">Akurdi</option>
+          <option value="Wakadewadi">Wakadewadi</option>
+        </select>
+        <br>
+        <input type="submit" value="Calculate" />
+      </form>
+    </div>
+
+    <div class="results">
+      <h2>Results</h2>
+      <p><b>Route: </b><br /><span id="route"></span></p>
+    </div>
+  </div>
+
+  <script>
+
+    const form = document.getElementById('routeForm');
+    const resultDiv = document.getElementById('route');
+    const resultContainer = document.getElementById('results');
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+
+      const source = document.getElementById('source').value;
+      const destination = document.getElementById('destination').value;
+
+      console.log("Source:", source);
+      console.log("Destination:", destination);
+
+      const formData = new FormData();
+      formData.append('source', source);
+      formData.append('destination', destination);
+
+      console.log(formData);
+
+      try {
+        const response = await fetch('/Findroute', {
+          method: 'POST',
+          body: formData,
+        });
+
+        const result = await response.text();
+        console.log("Result ", result);
+        resultDiv.innerHTML = `<pre>${result}</pre>`;
+        
+      } catch (error) {
+        console.error("Error:", error);
+        resultDiv.innerHTML = '<pre>Error occurred. Please try again.</pre>';
+        
+      }
+    });
+
+  </script>
+</body>
+</html>
