@@ -22,7 +22,7 @@ app.post('/Findroute', upload.none(), async (req, res) => {
     console.log("Destination:", destination);
 
     // Provide the directory path where your C program is located
-    const dirPath = '/media/aditya/4424836B4EED3669/ADS/ADS Project/Shortest_distance';
+    const dirPath = '/public/executables';
     
     // Execute the C program with the provided parameters
     const command = `${__dirname}/m "${source}" "${destination}"`;
