@@ -5,7 +5,7 @@ A application built in **C** that helps users find the shortest path between two
 ## 🛠️ Built With
 
 - 💻 Programming Language: C
-- 📚 Algorithm: Dijkstra’s Algorithm (Greedy Approach)
+- 📚 Algorithm: Dijkstra’s Algorithm
 
 ## 🔧 How to Run
 - For execution use ```node server.js``` command and type https://127.0.0.1/3000 in your browser.
